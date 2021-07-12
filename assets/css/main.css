@@ -2278,17 +2278,17 @@ input, select, textarea {
 
 /* Work */
 
-#work {
-	background: url("images/overlay.png"), url("../../images/work.jpg");
-	background-size: 256px 256px, cover;
-	background-attachment: fixed, fixed;
-	background-position: top left, center center;
-}
+	#work {
+		background: url("images/overlay.png"), url("../../images/fulls/work.jpeg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 
 /* Contact */
 
 	#contact {
-		background: url("images/overlay.png"), url("../../images/contact.jpg");
+		background: url("images/overlay.png"), url("../../images/fulls/contact.jpeg");
 		overflow: hidden;
 		padding-bottom: 0;
 	}
