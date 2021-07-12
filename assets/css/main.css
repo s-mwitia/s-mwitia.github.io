@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #010b0f;
 		letter-spacing: 0.025em;
 	}
 
@@ -548,6 +548,8 @@ input, select, textarea {
 			}
 
 		}
+	
+	
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 1000;
@@ -1852,6 +1854,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			color: white;
 		}
 
 			#header h1 a {
@@ -1879,6 +1882,7 @@ input, select, textarea {
 					#header nav ul li a {
 						display: block;
 						color: white;
+						font-weight: 1000;
 						text-decoration: none;
 						height: 3em;
 						line-height: 3em;
@@ -2275,21 +2279,15 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-
-/* Work */
-
-	#work {
-		background: url("images/overlay.png"), url("../../images/work1.jpeg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
+	
 /* Contact */
 
 	#contact {
 		background: url("images/overlay.png"), url("../../images/fulls/contact.jpeg");
 		overflow: hidden;
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 		padding-bottom: 0;
 	}
 
