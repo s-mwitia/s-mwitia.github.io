@@ -202,7 +202,7 @@ a {
 		font-size: 46pt;
 		font-size: 1000em;
 		font-weight: bolder;
-		color: #ffffff;
+		color: #881616;
 		padding-top: 70px;
 		font-family:  system-ui;}
 
@@ -256,10 +256,15 @@ a {
 .services_main{
 	width: 100%;
 	float: left;
-	background-color: #ffffff;
+	background-color: #f8ecda;
 	height: auto;
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+
+.pictorials{
+	text-align: center;
+	object-fit: contain;
 }
 
 .creative_taital{
