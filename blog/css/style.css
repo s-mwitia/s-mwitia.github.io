@@ -256,17 +256,23 @@ a {
 .services_main{
 	width: 100%;
 	float: left;
-	background-color: #f8ecda;
+	background-color: #f1f1f1;
 	height: auto;
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
 
 .pictorials{
+	width:auto;
+	height: auto;
 	text-align: center;
-	object-fit: contain;
+	padding: 15px;
+
 }
 
+.pic{
+	object-fit: cover;
+}
 .creative_taital{
 	width: 100%;
 	float: left;
@@ -320,6 +326,7 @@ a {
 	background-color: #072833;
 	height: auto;
 	padding: 20px;
+	font-weight: bold;
 }
 
 .written_text{
