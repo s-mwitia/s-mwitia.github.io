@@ -256,7 +256,7 @@ a {
 .services_main{
 	width: 100%;
 	float: left;
-	background-color: #f1f1f1;
+	background-color: #f3c5a0;
 	height: auto;
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -347,7 +347,9 @@ a {
 	margin-top: 20px;
 }
 
-
+.written_text.h1{
+	
+}
 .like_icon{
 	padding-left: 20px;
 	min-height: 50px;
