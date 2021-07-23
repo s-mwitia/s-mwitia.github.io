@@ -471,7 +471,7 @@ a {
 .copyright{
 	width: 100%;
 	float: left;
-	background-color: #076787;
+	background-color: #39454B;
 	padding-top: 10px;
 	padding-bottom: 10px;
 
@@ -480,8 +480,8 @@ a {
 .copyright_text{
 	width: 100%;
 	float: left;
-	color: #fbfdfd;
-	text-align: center;
+	color: #B9BABB80;
+	text-align: left;
 	margin: 0px;
 }
 
