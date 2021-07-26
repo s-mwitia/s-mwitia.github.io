@@ -263,11 +263,9 @@ a {
 }
 
 .pictorials{
-	width:auto;
 	height: auto;
-	text-align: center;
-	padding: 15px;
-
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .info_table{
