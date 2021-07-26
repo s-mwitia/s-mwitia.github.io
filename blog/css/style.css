@@ -263,9 +263,9 @@ a {
 }
 
 .pictorials{
-	height: auto;
-	padding-left: 30px;
-	padding-right: 30px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
 }
 
 .info_table{
@@ -334,7 +334,7 @@ a {
 	float: left;
 	background-color: #072833;
 	height: auto;
-	padding: 20px;
+	/*padding: 20px;*/
 	font-weight: bold;
 }
 
@@ -342,7 +342,7 @@ a {
 	width: 100%;
 	float: left;
 	color: #ffffff;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 
