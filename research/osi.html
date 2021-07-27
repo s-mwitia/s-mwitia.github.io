@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 <link href="assets/images/favicon.png" rel="icon" />
-<title>Two Factor Authentication</title>
+<title>OSI</title>
 <meta name="description" content="Your ThemeForest item Name and description">
 <meta name="author" content="harnishdesign.net">
 
@@ -67,7 +67,7 @@
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Dropdown Action</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="osi.html">OSI Model</a></li>
+                    <li><a class="dropdown-item" href="index.html">Action</a></li>
                     <li><a class="dropdown-item" href="feature-header-dark.html">Another Action</a></li>
                     <li><a class="dropdown-item" href="feature-header-primary.html">Something Else Here</a></li>
                     <li><a class="dropdown-item" href="index-2.html">Another Link</a></li>
@@ -95,11 +95,20 @@
 	============================ -->
 	<div class="idocs-navigation bg-light">
       <ul class="nav flex-column ">
-        <li class="nav-item"><a class="nav-link active" href="#start">Two Factor Authentication</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#start">OSI Model</a></li>
         <li class="nav-item"><a class="nav-link" href="#definition">What is it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#why">Why do we need it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#who">Who uses it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#producers">Top 5 Global Producers of Microprocessors and Microcontrollers</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#layers">Layers of the OSI Model</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#application">Application</a></li>
+            <li class="nav-item"><a class="nav-link" href="#presentation">Presentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#session">Session</a></li>
+            <li class="nav-item"><a class="nav-link" href="#transport">Transport</a></li>
+            <li class="nav-item"><a class="nav-link" href="#network">Network</a></li>
+            <li class="nav-item"><a class="nav-link" href="#data-link">Data Link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#physical">Physical</a></li>
+          </ul>
+        <li class="nav-item"><a class="nav-link active" href="#summary">Summary of the OSI Layers</li>
+        </li>
       </ul>
     </div>
     
@@ -111,7 +120,7 @@
         <!-- Getting Started
 		============================ -->
         <section id="start">
-        <h1 class="text-15"><strong><u>TWO FACTOR AUTHENTICATION</u></strong></h1>
+        <h1 class="text-15"><strong><u>OSI MODEL</u></strong></h1>
 		<hr>
 		<div class="row">
 			<div class="col-sm-6 col-lg-4">
@@ -123,7 +132,7 @@
 			<div class="col-sm-6 col-lg-4">
 				<ul class="list-unstyled">
 					<li><strong class="font-weight-700">Created:</strong> 19 July, 2021</li>
-					<li><strong>Update:</strong> 26 July, 2021</li>
+					<li><strong>Update:</strong> 27 July, 2021</li>
 				</ul>
 			</div>
 		</div>
@@ -136,48 +145,72 @@
         <!-- Installation
 		============================ -->
         <section id="definition">
-          <h2><strong>What is Two Factor Authentication?</strong></h2>
-          <p>2FA is an extra layer of security used to make sure that people trying to gain access to an online account are who they say they are. First, a user will enter their username and a password. Then, instead of immediately gaining access, they will be required to provide another piece of information.</p>
-          <img src="assets/images/2fa/picture.png" class="img-fluid" style="width: 80%;" alt="Differences">
-          <p class="alert alert-info">From https://authy.com/what-is-2fa/</p>
+          <h2><strong>What is the OSI Model?</strong></h2>
+          <p>The OSI Model (Open Systems Interconnection Model) is a conceptual framework used to describe the functions of a networking system. The OSI model characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software. </p>
+          <p class="alert alert-info">From: https://www.forcepoint.com/cyber-edu/osi-model#:~:text=The%20OSI%20Model%20(Open%20Systems,between%20different%20products%20and%20software</p>
         </section>
         
 		<hr class="divider">
 		
         <!-- HTML Structure
 		============================ -->
-        <section id="why">
-          <h2><strong>Why Do We Need Two Factor Authentication?</strong></h2>
-          <p>As people carry out more of their activities online there is a need to keep one's online accounts secure as more people fall victim to con artists and fraudsters trying to access one's account. This brings about the need for an extra layer of security on one’s account, thus the need for two factor authentication.</p>
+        <section id="layers">
+          <h2><strong>Layers of the OSI Model</strong></h2>
+          <p>In the OSI reference model, the communications between a computing system are split into seven different abstraction layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.</p>
+          <img src="assets/images/osi/picture1.png" class="img-fluid" style="width:50%">
         </section>
-
     
     <hr class="divider">
-		
-        <!-- HTML Structure
-		============================ -->
-        <section id="how">
-          <h2><strong>How is Two Factor Authentication Implemented?</strong></h2>
-          <p class="lead">Two factor authentication can be implemented in three ways:</p>
-          <ul>
-            <li><p><strong>Using something you know:</strong> This could be done by the user entering specific information that only they know eg: personal identification number (PIN), a password, answers to “secret questions” or a specific keystroke pattern. </p></li>
-            <li><p><strong>Using something you have:</strong> This is done by the user confirming the access of the account using a trusted device that they own eg: using your mobile phone to confirm that you are accessing your Google account on your laptop.</p></li>
-            <li><p><strong>Using something you are:</strong> This is accomplished by using  features unique to the user such as a scan of their fingerprint or their voice.</p></li>
-          </ul>
+        <p class="alert alert-info">From https://www.imperva.com/learn/application-security/osi-model/</p>
+        <section id="application">
+          <h3><strong>a) Application Layer</strong></h3>
+          <p>The application layer is used by end-user software such as web browsers and email clients. It provides protocols that allow software to send and receive information and present meaningful data to users. A few examples of application layer protocols are the Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).</p>
+          <img src="assets/images/osi/picture2.jpg" class="img-fluid" style="width:40%">
         </section>
 
-      <hr class="divider">
-		
-        <!-- HTML Structure
-		============================ -->
-        <section id="who">
-          <h2><strong>Who Uses Two Factor Authentication?</strong></h2>
-          <p>A large number of companies that operate online use 2 factor authentication to verify their users for example: Amazon, Google and Facebook.</p>
-          <p class="alert alert-info">A larger list can be found on https://www.pcmag.com/how-to/two-factor-authentication-who-has-it-and-how-to-set-it-up.</p>
+        
+        <section id="presentation">
+          <h3><strong>b) Presentation Layer</strong></h3>
+          <p>The presentation layer prepares data for the application layer. It defines how two devices should encode, encrypt, and compress data so it is received correctly on the other end. The presentation layer takes any data transmitted by the application layer and prepares it for transmission over the session layer.</p>
+          <img src="assets/images/osi/picture3.jpg" class="img-fluid" style="width:40%">
         </section>
 
+        <section id="session">
+          <h3><strong>c) Session Layer</strong></h3>
+          <p>The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends.</p>
+          <img src="assets/images/osi/picture4.jpg" class="img-fluid" style="width:40%">
+        </section>
+
+        <section id="transport">
+          <h3><strong>d) Transport Layer</strong></h3>
+          <p>The transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer.</p>
+          <img src="assets/images/osi/picture5.jpg" class="img-fluid" style="width:40%">
+        </section>
+
+        <section id="network">
+          <h3><strong>e) Network Layer</strong></h3>
+          <p>The network layer has two main functions. One is breaking up segments into network packets, and reassembling the packets on the receiving end. The other is routing packets by discovering the best path across a physical network.</p>
+          <img src="assets/images/osi/picture6.png" class="img-fluid" style="width:40%">
+        </section>
+
+        <section id="data-link">
+          <h3><strong>f) Data Link Layer</strong></h3>
+          <p>The data link layer establishes and terminates a connection between two physically-connected nodes on a network. It breaks up packets into frames and sends them from source to destination.</p>
+          <img src="assets/images/osi/picture7.jpeg" class="img-fluid" style="width:40%">
+        </section>
+        
+        <section id="physical">
+          <h3><strong>g) Physical Layer</strong></h3>
+          <p>The physical layer is responsible for the physical cable or wireless connection between network nodes. It defines the connector, the electrical cable or wireless technology connecting the devices, and is responsible for transmission of the raw data, which is simply a series of 0s and 1s, while taking care of bit rate control.</p>
+          <img src="assets/images/osi/picture8.png" class="img-fluid" style="width:40%">
+        </section>
     
-
+      <hr class="divider">
+        <section id="summary">
+          <h2><strong>Summary Diagram</strong></h2>
+          <p class="lead">Below is the summary diagram of each layers functions:</p>
+          <img src="assets/images/osi/picture10.png" class="img-fluid"> 
+        </section>
 
     </div>
 	
