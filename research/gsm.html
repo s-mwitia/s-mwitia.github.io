@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 <link href="assets/images/favicon.png" rel="icon" />
-<title>Two Factor Authentication</title>
+<title>GSM and GPRS</title>
 <meta name="description" content="Your ThemeForest item Name and description">
 <meta name="author" content="harnishdesign.net">
 
@@ -66,7 +66,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="osi.html">OSI</a></li>
                 <li><a class="dropdown-item" href="iot.html">IoT</a>
-                <li><a class="dropdown-item" href="gsm.html">GSM and GPRS</a></li>
+                <li><a class="dropdown-item" href="2fa.html">Two Factor Authentication</a></li>
               </ul>
             </li>
             
@@ -87,11 +87,9 @@
 	============================ -->
 	<div class="idocs-navigation bg-light">
       <ul class="nav flex-column ">
-        <li class="nav-item"><a class="nav-link active" href="#start">Two Factor Authentication</a></li>
-        <li class="nav-item"><a class="nav-link" href="#definition">What is it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#why">Why do we need it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#who">Who uses it?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#producers">Top 5 Global Producers of Microprocessors and Microcontrollers</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#gsm">What is GSM?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gprs">What is GPRS?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#differences">Differences between GSM and GPRS</a></li>
       </ul>
     </div>
     
@@ -103,7 +101,7 @@
         <!-- Getting Started
 		============================ -->
         <section id="start">
-        <h1 class="text-15"><strong><u>TWO FACTOR AUTHENTICATION</u></strong></h1>
+        <h1 class="text-15"><strong><u>GSM AND GPRS</u></strong></h1>
 		<hr>
 		<div class="row">
 			<div class="col-sm-6 col-lg-4">
@@ -114,8 +112,8 @@
 			</div>
 			<div class="col-sm-6 col-lg-4">
 				<ul class="list-unstyled">
-					<li><strong class="font-weight-700">Created:</strong> 19 July, 2021</li>
-					<li><strong>Update:</strong> 26 July, 2021</li>
+					<li><strong class="font-weight-700">Created:</strong> 20 July, 2021</li>
+					<li><strong>Update:</strong> 28 July, 2021</li>
 				</ul>
 			</div>
 		</div>
@@ -127,50 +125,43 @@
 		
         <!-- Installation
 		============================ -->
-        <section id="definition">
-          <h2><strong>What is Two Factor Authentication?</strong></h2>
-          <p>2FA is an extra layer of security used to make sure that people trying to gain access to an online account are who they say they are. First, a user will enter their username and a password. Then, instead of immediately gaining access, they will be required to provide another piece of information.</p>
-          <img src="assets/images/2fa/picture.png" class="img-fluid" style="width: 80%;" alt="Differences">
-          <p class="alert alert-info">From https://authy.com/what-is-2fa/</p>
+        <section id="gsm">
+          <h2><strong>What is GSM?</strong></h2>
+          <p>GSM stands for Global System for Mobile Communications. It’s a standard that specifies how 2G (second generation) cellular networks operate.</p>
+          <img src="assets/images/gsm/picture1.jpeg" class="img-fluid" style="width: 60%;" alt="Differences">
+          <p class="lead">GSM standards divide networks into four distinct parts:</p>
+          <ul>
+            <li>Mobile Station</li>
+            <li>Base Station Subsystem (BSS)</li>
+            <li>Network and Switching Subsystem (NSS)</li>
+            <li>Operations Support System (OSS)</li>
+          </ul>
+          <p><strong>Mobile Station:</strong>It is essentially the access point someone uses to connect to the network.</p>
+          <p><strong>Base Station Subsystem:</strong> The BSS contains Base Transceiver Stations and a Base Station Controller. The Base Transceiver Stations allows connected devices to send and receive signals, and the Base Station Controller allows the Base Transceiver Stations to relay signals through the network, via the Network and Switching Subsystem.</p>
+          <p><strong>Network and Switching Subsystem:</strong> The NSS originally helped facilitate connection-oriented voice calls with the Home Location Register (HLR), Authentication Center (AuC), Message Service Center (MSC), and Visitor Location Register (VLR).</p>
+          <p><strong>Operations Support System:</strong> It is a conglomeration of processes, data, applications, and tech that allows providers to manage their network.</p>
         </section>
         
 		<hr class="divider">
 		
         <!-- HTML Structure
 		============================ -->
-        <section id="why">
-          <h2><strong>Why Do We Need Two Factor Authentication?</strong></h2>
-          <p>As people carry out more of their activities online there is a need to keep one's online accounts secure as more people fall victim to con artists and fraudsters trying to access one's account. This brings about the need for an extra layer of security on one’s account, thus the need for two factor authentication.</p>
+        <section id="gprs">
+          <h2><strong>What is GPRS?</strong></h2>
+          <p>GPRS stands for General Packet Radio Service. It is a best-effort packet-switching protocol for wireless and cellular network communication services. It is considered best effort because all packets are given the same priority and the delivery of packets isn't guaranteed.</p>
+          <img src="assets/images/gsm/picture2.png" class="img-fluid" style="width:60%">
         </section>
 
-    
-    <hr class="divider">
+        <hr class="divider">
 		
         <!-- HTML Structure
 		============================ -->
-        <section id="how">
-          <h2><strong>How is Two Factor Authentication Implemented?</strong></h2>
-          <p class="lead">Two factor authentication can be implemented in three ways:</p>
-          <ul>
-            <li><p><strong>Using something you know:</strong> This could be done by the user entering specific information that only they know eg: personal identification number (PIN), a password, answers to “secret questions” or a specific keystroke pattern. </p></li>
-            <li><p><strong>Using something you have:</strong> This is done by the user confirming the access of the account using a trusted device that they own eg: using your mobile phone to confirm that you are accessing your Google account on your laptop.</p></li>
-            <li><p><strong>Using something you are:</strong> This is accomplished by using  features unique to the user such as a scan of their fingerprint or their voice.</p></li>
-          </ul>
+        <section id="differences">
+          <h2><strong>Differences between GSM and GPRS</strong></h2>
+          <img src="assets/images/gsm/picture3.png" class="img-fluid" style="width:60%">
         </section>
-
-      <hr class="divider">
-		
-        <!-- HTML Structure
-		============================ -->
-        <section id="who">
-          <h2><strong>Who Uses Two Factor Authentication?</strong></h2>
-          <p>A large number of companies that operate online use 2 factor authentication to verify their users for example: Amazon, Google and Facebook.</p>
-          <p class="alert alert-info">A larger list can be found on https://www.pcmag.com/how-to/two-factor-authentication-who-has-it-and-how-to-set-it-up.</p>
-        </section>
-
     
-
-
+    
     </div>
 	
   </div>
